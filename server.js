@@ -7,19 +7,15 @@ const express = require('express')
 const app = express()
 
 // mongoose
-const mongoose = require('mongoose')
 
 //======================
 // use
 //======================
 
-app.use(express.json())
-app.use(express.static('public'))
 
 //======================
 // middleware
 //======================
-
 
 
 // use
@@ -29,11 +25,6 @@ app.use(express.static('public'))
 // mongoose connect
 //======================
 
-mongoose.connect('mongodb://localhost:27017/helloworld',
-  { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false });
-  mongoose.connection.once('open', () => {
-      console.log('Mongod connection established.');
-  });
 
 //======================
 // listener
@@ -41,4 +32,12 @@ mongoose.connect('mongodb://localhost:27017/helloworld',
 
 app.listen(3000, () => {
   console.log('Started listening.');
+})
+
+//======================
+// routes
+//======================
+
+app.get('/', (req, res) => {
+  res.send('Hello World')
 })
