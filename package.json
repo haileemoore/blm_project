@@ -7,19 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haileedoyle/w08d02_GA.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/haileedoyle/w08d02_GA/issues"
-  },
-  "homepage": "https://github.com/haileedoyle/w08d02_GA#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.19"
+    "express": "^4.17.1"
   }
 }
