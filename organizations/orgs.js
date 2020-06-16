@@ -332,3 +332,293 @@
   donated: false,
   donatedAmount: 0
 },
+{
+  organization: 'Brooklyn Bail Fund',
+  website: 'https://brooklynbailfund.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'Brooklyn Community Bail Fund secures the freedom of New Yorkers who would otherwise be detained pretrial due to their poverty alone. We are committed to challenging the criminalization of race, poverty and immigration status, the practice of putting a price on fundamental rights, and the persistent myth that bail is a necessary element of the justice system.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Colorado Freedom Fund',
+  website: 'https://fundly.com/coloradofreedom',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'Founded in 2018, Colorado Freedom Fund (CFF) is a revolving fund that pays ransom (posts money bond, pays cash bail) for people unable to afford the cost of buying their own freedom.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Emergency Rapid Response Fund (National Bail Fund Network)',
+  website: 'https://www.communityjusticeexchange.org/national-bail-fund-network',
+  donationMethod: 'via ActBlue',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'Support the Protest & COVID-19 Emergency Response Fund for Community Bail & Bond Funds! The Community Justice Exchange is the host of the National Bail Fund Network, a formation of over sixty community-led bail and bond funds that are part of campaigns to end pretrial and immigration detention.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Emergency Release Fund (National Bail Fund Network member)',
+  website: 'https://emergencyreleasefund.com',
+  donationMethod: 'via ActBlue',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'Keeping Trans People Safe And Out Of Jail. Now. The Community Justice Exchange is the host of the National Bail Fund Network, a formation of over sixty community-led bail and bond funds that are part of campaigns to end pretrial and immigration detention.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'National Bail Out - Free Black Mamas',
+  website: 'nationalbailout.org',
+  donationMethod: 'via ActBlue',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'National Bail Out is a Black-led and Black-centered collective of abolitionist organizers, lawyers and activists building a community-based movement to support our folks and end systems of pretrial detention and ultimately mass incarceration.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Restoring Justice (Houston)',
+  website: 'https://www.restoringjustice.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'We provide holistic and loving legal defense and social services for the marginalized in our community.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'The Bail Project',
+  website: 'https://bailproject.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'The Bail Project, Inc. is a non-profit organization designed to combat mass incarceration by disrupting the money bail system ‒ one person at a time.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'The Massachusetts Bail Fund',
+  website: 'https://www.massbailfund.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'The Massachusetts Bail Fund posts bails of up to $2000 in Essex & Suffolk Counties in Massachusetts.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Brave Space Alliance',
+  website: 'https://actionnetwork.org/fundraising/help-sustain-brave-space-alliance',
+  donationMethod: 'via Action Network',
+  bipocFounded: true,
+  lgbtqiaFounded: true,
+  missionStatement: 'The only Black-led, trans-led LGBTQ Center in Chicago, providing life-saving, culturally competent, for-us by-us programs and services to Black and Brown trans and gender non-conforming people on the South and West sides of the city.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Fierce NYC',
+  website: 'http://www.fiercenyc.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'FIERCE is a membership-based organization building the leadership and power of lesbian, gay, bisexual, transgender, and queer (LGBTQ) youth of color in New York City. ',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'The Okra Project',
+  website: 'https://www.theokraproject.com/',
+  donationMethod: 'PayPal',
+  bipocFounded: true,
+  lgbtqiaFounded: true,
+  missionStatement: 'A collective that seeks to address the global crisis faced by Black Trans people by bringing home cooked, healthy, and culturally specific meals and resources to Black Trans People experiencing food insecurity. ',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Black AIDS Institute',
+  website: 'https://blackaids.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Our mission is to stop the AIDS epidemic in Black communities by engaging and mobilizing Black institutions and individuals in efforts to confront HIV. ',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Black Visions Collective MN',
+  website: 'https://www.blackvisionsmn.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: true,
+  missionStatement: 'Work in healing and transformative justice principles, intentionally develop organizations core “DNA” to ensure sustainability, and develop Minnesota’s emerging Black leadership to lead powerful campaigns.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Black Womens Health Imperative',
+  website: 'https://bwhi.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Help protect and advance the health and wellness of Black women and girls, decreasing health disparities for Black Women across their lifespan.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'BOLD (Black Organizing for Leadership and Dignity)',
+  website: 'https://boldorganizing.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'BOLD is a national training intermediary focused on strengthening Black social justice infrastructure in the U.S. by transforming the practice of Black organizers to increase their alignment, impact and sustainability to win progressive change.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Chicago Freedom School',
+  website: 'https://chicagofreedomschool.org',
+  donationMethod: 'PayPal',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Through youth programs and trainings, equip young people and adult allies with the tools to develop actionable strategies for social change.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Dignity and Power Now (DPN)',
+  website: 'http://dignityandpowernow.org/',
+  donationMethod: 'PayPal',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Based in Los Angeles, fights for the dignity and power of incarcerated people, their families, and communities.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Freedom, Inc.',
+  website: 'http://freedom-inc.org/index.php',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: true,
+  missionStatement: 'Our mission is to achieve social justice through coupling direct services with leadership development and community organizing that will bring about social, political, cultural, and economic change resulting in the end of violence against women, gender-non-conforming and transgender folks, and children within communities of color.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Midway United Fund (Neighbors United Funding Collaborative)',
+  website: 'https://midwayunited.org',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: false,
+  lgbtqiaFounded: false,
+  missionStatement: 'Provide funding to residents, local businesses, and community organizations who bring forth innovative ideas and projects focusing on economic development, placemaking, public art, preventing displacement, and community preservation',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'National Urban League',
+  website: 'https://nul.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Social Parity, economic self-reliance, power and civil rights',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'NDN Collective',
+  website: 'https://ndncollective.org',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'NDN Collective is an Indigenous-led organization dedicated to building Indigenous power. Through organizing, activism, philanthropy, grantmaking, capacity-building and narrative change, we are creating sustainable solutions on Indigenous terms.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'North Star Fund',
+  website: 'https://northstarfund.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Social justice fund that supports grassroots organizing led by communities of color building power in New York City and the Hudson Valley. ',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Project South',
+  website: 'https://projectsouth.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Project South is a Southern-based leadership development organization that creates spaces for movement building. We build relationships with organizations and networks across the US and global South to inform our local work and to engage in bottom-up movement building for social and economic justice.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Race Forward',
+  website: 'https://www.raceforward.org/',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Support and lift up the work of local Black-led organizing on the ground in communities across the country',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Soul Fire Farm',
+  website: 'http://www.soulfirefarm.org/',
+  donationMethod: 'PayPal',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Soul Fire Farm is a BIPOC*-centered community farm committed to ending racism and injustice in the food system. ',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'STOP Chicago (Southside Together Organizing for Power)',
+  website: 'https://www.stopchicago.org',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'To advance economic and social human rights by organizing and developing leadership among people most affected by economic and racial oppression.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'The Loveland Foundation',
+  website: 'https://thelovelandfoundation.org',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'The Loveland Foundation is the official continuation of the effort to bring opportunity and healing to communities of color, and especially to Black women and girls, through fellowships, residency programs, listening tours, and more.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'The Organization for Black Struggle',
+  website: 'https://www.obs-stl.org/',
+  donationMethod: 'PayPal',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'To build a movement that fights for political empowerment, economic justice and the cultural dignity of the African-American community, especially the Black working class.',
+  donated: false,
+  donatedAmount: 0
+},
+{
+  organization: 'Voices for Racial Justice',
+  website: 'https://voicesforracialjustice.org',
+  donationMethod: 'Credit/Debit',
+  bipocFounded: true,
+  lgbtqiaFounded: false,
+  missionStatement: 'Building power through collective cultural & healing strategies for racial justice across Minnesota using organizing, leadership training, community policy & research.',
+  donated: false,
+  donatedAmount: 0
+}
