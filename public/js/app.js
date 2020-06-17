@@ -36,7 +36,7 @@ this.getOrgs()
         $http(
           {
             method: 'PUT',
-            url: '/resources/' +org._id,
+            url: '/resources/' + org._id,
             data:
               {
                 organization: this.updatedOrganization,
@@ -59,46 +59,46 @@ this.getOrgs()
           )
       }
 
-      // this.deleteOrg = function(org) {
-      //   $http(
-      //     {
-      //       method: 'DELETE',
-      //       url: '/resources/' + org._id
-      //     }
-      //   ).then(
-      //     function(response) {
-      //       controller.getOrgs()
-      //     },
-      //     function(error) {
-      //       console.log(error);
-      //     }
-      //   )
-      // }
-      //
-      // this.createOrg = function() {
-      //   $http(
-      //     {
-      //       method: 'POST',
-      //       url: '/resources',
-      //       data:
-      //       {
-      //         organization: this.organization,
-      //         website: this.website,
-      //         donationMethod: this.donationMethod,
-      //         bipocFounded: this.bipocFounded,
-      //         lgbtqiaFounded: this.lgbtqiaFounded,
-      //         missionStatement: this.missionStatement,
-      //         donated: this.donated,
-      //         donationAmount: this.donationAmount
-      //       }
-      //     }
-      //   ).then(
-      //     function(response) {
-      //         console.log(response);
-      //     }, function(error) {
-      //         console.log(error);
-      //     }
-      //   )
-      // }
+      this.deleteOrg = function(org) {
+        $http(
+          {
+            method: 'DELETE',
+            url: '/resources/' + org._id
+          }
+        ).then(
+          function(response) {
+            controller.getOrgs()
+          },
+          function(error) {
+            console.log(error);
+          }
+        )
+      }
+
+      this.createOrg = function() {
+        $http(
+          {
+            method: 'POST',
+            url: '/resources',
+            data:
+            {
+              organization: this.organization,
+              website: this.website,
+              donationMethod: this.donationMethod,
+              bipocFounded: this.bipocFounded,
+              lgbtqiaFounded: this.lgbtqiaFounded,
+              missionStatement: this.missionStatement,
+              donated: this.donated,
+              donationAmount: this.donationAmount
+            }
+          }
+        ).then(
+          function(response) {
+              console.log(response);
+          }, function(error) {
+              console.log(error);
+          }
+        )
+      }
 
   }])
