@@ -14,6 +14,8 @@ app.controller('MainController',
 
       const controller = this
 
+      this.showIndexEditForm = null
+
       this.getOrgs = function() {
         $http(
           {
@@ -27,6 +29,75 @@ app.controller('MainController',
           })
       }
 
-      
-    this.getOrgs()
+this.getOrgs()
+
+      this.editOrg = function(org) {
+        $http(
+          {
+            method: 'PUT',
+            url: '/resources/' +org._id,
+            data:
+              {
+                organization: this.updatedOrganization,
+                website: this.updatedUrl,
+                donationMethod: this.updatedDonationMethod,
+                bipocFounded: this.updatedBipocFounded,
+                lgbtqiaFounded: this.updatedLgbtqiaFounded,
+                missionStatement: this.updatedMissionStatement,
+                donated: this.updatedDonated,
+                donationAmount: this.updatedDonation
+              }
+          }
+            ).then(
+              function(response) {
+                controller.getOrgs()
+            },
+              function(error) {
+                console.log(error);
+              }
+          )
+      }
+
+      // this.deleteOrg = function(org) {
+      //   $http(
+      //     {
+      //       method: 'DELETE',
+      //       url: '/resources/' + org._id
+      //     }
+      //   ).then(
+      //     function(response) {
+      //       controller.getOrgs()
+      //     },
+      //     function(error) {
+      //       console.log(error);
+      //     }
+      //   )
+      // }
+      //
+      // this.createOrg = function() {
+      //   $http(
+      //     {
+      //       method: 'POST',
+      //       url: '/resources',
+      //       data:
+      //       {
+      //         organization: this.organization,
+      //         website: this.website,
+      //         donationMethod: this.donationMethod,
+      //         bipocFounded: this.bipocFounded,
+      //         lgbtqiaFounded: this.lgbtqiaFounded,
+      //         missionStatement: this.missionStatement,
+      //         donated: this.donated,
+      //         donationAmount: this.donationAmount
+      //       }
+      //     }
+      //   ).then(
+      //     function(response) {
+      //         console.log(response);
+      //     }, function(error) {
+      //         console.log(error);
+      //     }
+      //   )
+      // }
+
   }])

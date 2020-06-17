@@ -11,9 +11,10 @@
     <div class="container">
       <h1>BLACK LIVES MATTER</h1>
       <div class="index">
+        <h4>ORGANIZATIONS</h4>
         <ul>
-        <li ng-repeat="resource in ctrl.resources">
-          <a href="{{resource.website}}">{{resource.organization}}</a> <br/>
+          <li ng-repeat="org in ctrl.orgs">
+            <a href="{{org.website}}">{{org.organization}}</a> <br/>
           <div class="delete">
             <button ng-click="ctrl.deleteOrg(org)">DELETE</button> <br />
           </div> <!-- end of delete div -->
@@ -46,12 +47,12 @@
                 type="checkbox"
                 ng-model="ctrl.updatedBipocFounded"
                 value="{{org.bipocFounded}}"
-                /> <br/>
+                />BIPOC FOUNDED <br/>
                 <input
                 type="checkbox"
                 ng-model="ctrl.updatedLgbtqiaFounded"
                 value="{{org.lgbtqiaFounded}}"
-                /> <br/>
+                />LGBTQIA FOUNDED <br/>
                 <input
                 type="text"
                 ng-model="ctrl.updatedMissionStatement"
@@ -61,11 +62,11 @@
                 type="checkbox"
                 ng-model="ctrl.updatedDonated"
                 placeholder="{{org.donated}}"
-                /> <br/>
+                />DONATED <br/>
                 <input
                 type="number"
                 ng-model="ctrl.updatedDonation"
-                placeholder="{{org.donationAmount}}"
+                placeholder="0"
                 /> <br/>
                 <input type="submit" value="SUBMIT EDITS">
             </form>
