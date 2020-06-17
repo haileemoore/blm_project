@@ -15,9 +15,9 @@ router.post('/', (req, res) => {
 })
 
 // HELLO WORLD
-router.get('/', (req, res) => {
-  res.send('Hello, World!')
-})
+// router.get('/', (req, res) => {
+//   res.send('Hello, World!')
+// })
 
 // GET
 router.get('/', (req, res) => {

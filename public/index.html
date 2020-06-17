@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="ResourcesApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js" charset="utf-8"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
+    <title>BLM RESOURCES</title>
+  </head>
+  <body ng-controller="MainController as ctrl">
+    <div class="container">
+      <h1>BLACK LIVES MATTER</h1>
+      <div class="index">
+        <ul>
+        <li ng-repeat="resource in ctrl.resources">
+          <a href="{{resource.website}}">{{resource.organization}}</a> <br/>
+          <div class="delete">
+            <button ng-click="ctrl.deleteOrg(org)">DELETE</button> <br />
+          </div> <!-- end of delete div -->
+          <div class="edit">
+            <button
+              ng-click="ctrl.showIndexEditForm = $index"
+              ng-if="$index !== ctrl.showIndexEditForm"
+              href="#">EDIT
+            </button>
+            <form
+              class="edit-form"
+              ng-if="$index === ctrl.showIndexEditForm"
+              ng-submit="ctrl.editOrg(org)">
+                <input
+                type="text"
+                ng-model="ctrl.updatedOrganization"
+                placeholder="{{org.organization}}"
+                /> <br/>
+                <input
+                type="text"
+                ng-model="ctrl.updatedUrl"
+                placeholder="{{org.website}}"
+                /> <br/>
+                <input
+                type="text"
+                ng-model="ctrl.updatedDonationMethod"
+                placeholder="{{org.donationMethod}}"
+                /> <br/>
+                <input
+                type="checkbox"
+                ng-model="ctrl.updatedBipocFounded"
+                value="{{org.bipocFounded}}"
+                /> <br/>
+                <input
+                type="checkbox"
+                ng-model="ctrl.updatedLgbtqiaFounded"
+                value="{{org.lgbtqiaFounded}}"
+                /> <br/>
+                <input
+                type="text"
+                ng-model="ctrl.updatedMissionStatement"
+                placeholder="{{org.missionStatement}}"
+                /> <br/>
+                <input
+                type="checkbox"
+                ng-model="ctrl.updatedDonated"
+                placeholder="{{org.donated}}"
+                /> <br/>
+                <input
+                type="number"
+                ng-model="ctrl.updatedDonation"
+                placeholder="{{org.donationAmount}}"
+                /> <br/>
+                <input type="submit" value="SUBMIT EDITS">
+            </form>
+          </div> <!-- end of edit div -->
+          </li>
+        </ul>
+        <div class="create">
+          <form ng-submit="ctrl.createOrg()">
+            <h4>CREATE ORGANIZATION</h4>
+            <input
+            type="text"
+            ng-model="ctrl.organization"
+            placeholder="ORGANIZATION"
+            /> <br/>
+            <input
+            type="text"
+            ng-model="ctrl.website"
+            placeholder="WEBSITE"
+            /> <br/>
+            <input
+            type="text"
+            ng-model="ctrl.donationMethod"
+            placeholder="DONATION METHOD"
+            /> <br/>
+            <input
+            type="checkbox"
+            ng-model="ctrl.bipocFounded"
+            value="FALSE"
+            />BIPOC FOUNDED <br/>
+            <input
+            type="checkbox"
+            ng-model="ctrl.lgbtqiaFounded"
+            value="FALSE"
+            />LGBTQIA FOUNDED <br/>
+            <input
+            type="text"
+            ng-model="ctrl.missionStatement"
+            placeholder="MISSION STATEMENT"
+            /> <br/>
+            <input
+            type="checkbox"
+            ng-model="ctrl.donated"
+            value="FALSE"
+            />DONATED <br/>
+            <input
+            type="number"
+            ng-model="ctrl.donationAmount"
+            placeholder="DONATION AMOUNT"
+            /> <br/>
+            <input type="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </div>  <!-- end of index div -->
+    </div> <!-- end of container div -->
+  </body>
+</html>
