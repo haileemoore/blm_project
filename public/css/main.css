@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'cornerstoneregular';
+    src: url('../webfontkit-cornerstone/cornerstone-webfont.woff2') format('woff2'),
+         url('../webfontkit-cornerstone/cornerstone-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  border: 1px solid red;
+  background: #FDE21B;
+}
+
+h1 {
+  font-family: 'cornerstoneregular'
+}
