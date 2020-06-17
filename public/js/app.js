@@ -15,6 +15,7 @@ app.controller('MainController',
       const controller = this
 
       this.showIndexEditForm = null
+      this.showIndexDetails = null
 
       this.getOrgs = function() {
         $http(

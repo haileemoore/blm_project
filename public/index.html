@@ -15,6 +15,22 @@
         <ul>
           <li ng-repeat="org in ctrl.orgs">
             <a href="{{org.website}}">{{org.organization}}</a> <br/>
+            <div class="org-details">
+              <button
+                ng-click="ctrl.showIndexDetails = $index"
+                ng-if="$index !== ctrl.showIndexDetails">
+                VIEW DETAILS
+              </button>
+              <p ng-if="$index === ctrl.showIndexDetails">
+                Donation Method: {{org.donationMethod}} <br/>
+                BIPOC Founded: {{org.bipocFounded}} <br/>
+                LGBTQIA Founded: {{org.lgbtqiaFounded}} <br/>
+                Mission Statement: {{org.missionStatement}} <br/>
+                Donated: {{org.donated}} <br/>
+                Donation Amount: {{org.donationAmount}} <br/>
+                <a href="/">HIDE DETAILS</a>
+              </p>
+            </div>
           <div class="delete">
             <button ng-click="ctrl.deleteOrg(org)">DELETE</button> <br />
           </div> <!-- end of delete div -->
@@ -66,7 +82,7 @@
                 <input
                 type="number"
                 ng-model="ctrl.updatedDonation"
-                placeholder="0"
+                placeholder="DONATION AMOUNT"
                 /> <br/>
                 <input type="submit" value="SUBMIT EDITS">
             </form>
