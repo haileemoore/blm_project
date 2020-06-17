@@ -36,7 +36,7 @@ router.delete(':/id', (req, res) => {
 
 // PUT
 router.put(':/id', (req, res) => {
-  Orgs.findByIdAndUpdate(req.parms.id,
+  Orgs.findByIdAndUpdate(req.params.id,
   req.body, {new:true},
     (err, updatedOrg) => {
       res.json(updatedOrg)
