@@ -3,14 +3,14 @@ const app = angular.module("ResourcesApp", [])
 app.controller('MainController',
   ['$http',
     function($http) {
-      this.organization = ""
-      this.website = ""
-      this.donationMethod = ""
-      this.bipocFounded = ""
-      this.lgbtqiaFounded = ""
-      this.missionStatement = ""
-      this.donated = false
-      this.donatedAmount = 0
+      // this.organization = ""
+      // this.website = ""
+      // this.donationMethod = ""
+      // this.bipocFounded = ""
+      // this.lgbtqiaFounded = ""
+      // this.missionStatement = ""
+      // this.donated = false
+      // this.donatedAmount = 0
 
       const controller = this
 
