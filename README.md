@@ -23,5 +23,5 @@ Create a single-page application where users can view resources to contribute to
 
 
 #### Contributors
-Zach Herwitz : https://github.com/zachherwitz
-Hailee Doyle : https://github.com/haileedoyle
+- Zach Herwitz : https://github.com/zachherwitz 
+- Hailee Doyle : https://github.com/haileedoyle
