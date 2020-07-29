@@ -1,6 +1,16 @@
-# w08d02_GA
+# Black Lives Matter Resource Site
 HW with Zach Herwitz
-
 
 - ZH
 - HD
+
+## Purpose
+Create a single-page application where users can view resources to contribute to the Black Lives Matter movement. User can track whether they've donated, the amount they have donated, and can be directed to each resource website. 
+
+## Tech Used
+
+
+### Challenges
+
+
+### Stretch Goals
